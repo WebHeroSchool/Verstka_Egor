@@ -7,8 +7,6 @@ body {
 	padding: auto;
 	width: 1440px;
 	height: 2700px;
-	position: relative;
-	border: 1px solid black;
 }
      /*Шапка сайта*/
 
@@ -134,9 +132,10 @@ body {
    /*Первая секция*/
 
 .title {
+	display: block;
     margin-top: 80px;
 	width: 1440px;
-	height: 606px;
+	height: 765px;
 }
 
 .title__item_caption {
@@ -173,7 +172,6 @@ body {
 	position: relative;
 	margin: 489px 0 0 321px;
 	width: 890px;
-	height: auto;
 }
 
 .title__badges ul {
@@ -194,14 +192,14 @@ body {
    /*Скорость*/
 
 .title__badges_speed {
-	display: inline-block;
+	display: block;
 	width: 170px;
     float: left;
 }
 
 .title__badges_speed_art {
-	margin-top: 25px;
-	margin-right: 10px;
+	margin-top: 15px;
+	margin-right: 15px;
 	float: left;
 }
 
@@ -209,12 +207,12 @@ body {
 	font-family: Montserrat;
 	list-style: none;
 	display: inline-block;
+	text-align: center;
 }
 
 .title__badges_speed li:nth-child(1) {
 	font-weight: 600;
     font-size: 35px;
-    margin-top: 10px;
 }
 
 .title__badges_speed li:nth-child(2) {
@@ -237,7 +235,7 @@ body {
 }
 
 .title__badges_distance_art {
-	margin-top: 19px;
+	margin-top: 10px;
 	margin-right: 10px;
 	float: left;
 }
@@ -252,7 +250,6 @@ body {
 .title__badges_distance li:nth-child(1) {
 	font-weight: 600;
     font-size: 35px;
-    margin-top: 10px;
 
 }
 
@@ -275,7 +272,7 @@ body {
 	height: 22px;
 	float: left;
 	margin-left: 55px;
-	margin-top: 35px;
+	margin-top: 25px;
 }
 
 .title__badges_button_art {
@@ -301,7 +298,7 @@ body {
 	padding: 10px 10px 10px 10px;
 	border: 2px solid #E51937;
 	margin-left: 40px;
-	margin-top: 25px;
+	margin-top: 15px;
 	font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -311,5 +308,76 @@ body {
 }
 
 
+/* Вторая секция*/
 
 
+.salon {
+	position: relative;
+	width: 100%;
+	height: 900px;
+}
+
+.salon__headline h1 {
+	position: absolute;
+	width: 488px;
+    height: 86px;
+	color: #E51937;
+	font-size: 70px;
+	font-family: Montserrat;
+    left: 80px;
+    line-height: 85px;
+    font-style: normal;
+    z-index: 2;
+}
+
+.salon__art {
+	position: absolute;
+	top: 35px;
+	z-index: 1;
+}
+
+.salon__sidebar {
+	position: absolute;
+    width: 440px;
+    height: 900px;
+    left: 997px;
+    background-color: #E51937;
+    z-index: 3;
+}
+
+/* Третья секция*/
+
+.analysis {
+	position: relative;
+	height: 900px;
+	width: 100%;
+}
+
+.analysis__sidebar {
+	position: absolute;
+    width: 440px;
+    height: 900px;
+    background-color: #E51937;
+}
+
+.analysis__art {
+	position: absolute;
+	z-index: 1;
+	left: 345px;
+	top: 223px;
+}
+
+.analisis__headline h1 {
+	position: absolute;
+	width: 830px;
+    height: 269px;
+	font-size: 195px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 244px;
+    color: #E51937;
+    left: 635px;
+    top: -16px;
+    opacity: 0.1;
+}
