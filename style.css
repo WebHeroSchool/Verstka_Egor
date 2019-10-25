@@ -7,6 +7,7 @@ body {
 	padding: auto;
 	width: 1440px;
 	height: 2700px;
+	position: relative;
 }
      /*Шапка сайта*/
 
@@ -208,6 +209,7 @@ body {
 	list-style: none;
 	display: inline-block;
 	text-align: center;
+	margin-bottom: -10px;
 }
 
 .title__badges_speed li:nth-child(1) {
@@ -245,6 +247,7 @@ body {
 	list-style: none;
 	display: inline-block;
 	text-align: center;
+	margin-bottom: -10px;
 }
 
 .title__badges_distance li:nth-child(1) {
@@ -268,7 +271,7 @@ body {
 
     /* КНОПКА */
 
-.title__budges_button {
+.title__badges_button {
 	height: 22px;
 	float: left;
 	margin-left: 55px;
@@ -279,18 +282,18 @@ body {
 	float: left;
 }
 
-.title__budges_button span {
+.title__badges_button span {
 	display: inline-block;
 	font-family: Montserrat;
     font-weight: bold;
     font-size: 13px;
     line-height: 16px;
+    text-transform: uppercase;
     text-align: center;
     margin-left: 7px;
-    margin-top: 2px;
 }
 
-.title__budges_order_button {
+.title__badges_order_button {
 	background-color: white;
 	width: 160px;
 	height: 40px;
@@ -344,6 +347,212 @@ body {
     background-color: #E51937;
     z-index: 3;
 }
+
+.salon__text {
+	position: absolute;
+	width: 325px;
+	top: 51px;
+	left: 52px;
+}
+
+.salon__text h1 {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+
+.salon__text p {
+	font-family: Montserrat;
+    font-size: 15px;
+    color: white;
+}
+
+/* Вторая секция ЗНАЧКИ*/
+
+.salon__badges {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 425px;
+	left: 52px;
+}
+
+  /*Значек ЭКРАН*/
+
+.salon__badges_screen {
+	width: 187px;
+    height: 65px;
+}
+
+.salon__badges_screen_art {
+	position: absolute;
+}
+
+.salon__badges_screen ul {
+	margin-left: 19px;
+
+}
+.salon__badges_screen li {
+	font-family: Montserrat;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+
+.salon__badges_screen li:nth-child(1) {
+	font-family: Montserrat;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.salon__badges_screen li:nth-child(2) {
+	font-family: Montserrat;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.salon__badges_screen li:nth-child(3) {
+	font-family: Montserrat;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+/* Значек Wifi*/
+
+.salon__badges_wifi {
+	width: 269px;
+    height: 71px;
+    margin-top: 44px;
+}
+
+.salon__badges_wifi_art {
+	position: absolute;
+	left: -5px;
+}
+
+.salon__badges_wifi ul {
+	margin-left: 22px;
+
+}
+
+.salon__badges_wifi li {
+	font-family: Montserrat;
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 12px;
+	margin-top: -20px;
+}
+
+.salon__badges_wifi li:nth-child(1) {
+	font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+}
+
+.salon__badges_wifi li:nth-child(2) {
+    font-family: Montserrat;
+    font-size: 12px;
+    color: white;
+ }
+
+  /*Значек БАТАРЕЯ*/
+
+  .salon__badges_battery {
+	width: 202px;
+    height: 71px;
+    margin-top: 25px;
+}
+
+.salon__badges_battery_art {
+	position: absolute;
+}
+
+.salon__badges_battery ul {
+	margin-left: 20px;
+
+}
+
+.salon__badges_battery li {
+	font-family: Montserrat;
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 8px;
+	margin-top: -15px;
+}
+
+.salon__badges_battery li:nth-child(1) {
+	font-family: Montserrat;
+    font-size: 35px;
+    color: white;
+}
+
+.salon__badges_battery li:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+ }
+
+ .salon__badges_battery li:nth-child(3) {
+ 	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+ }
+
+
+
+    /* КНОПКА */
+
+ .salon__badges_button {
+ 	width: 367px;
+	margin-top: 100px;
+}
+
+.salon__badges_button_art {
+     float: left;
+}
+
+.salon__badges_button span {
+	display: inline-block;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 7px;
+    color: white;
+    margin-top: 3px;
+    float: left;
+
+}
+
+.salon__badges_order_button {
+	background-color: #E51937;
+	width: 160px;
+	height: 40px;
+	color: #FFFFFF;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid white;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: -9px;
+}
+
 
 /* Третья секция*/
 
