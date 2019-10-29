@@ -144,6 +144,8 @@ body {
 	text-align: center;
 	font-size: 90px;
 	font-family: Montserrat;
+	font-weight: 500;
+	font-style: normal;
 }
 .title__item_under {
 	margin: -10px 0 0 0;
@@ -151,6 +153,8 @@ body {
 	font-size: 15px;
 	line-height: 18px;
 	font-family: Montserrat;
+	font-weight: 500;
+	font-style: normal;
 }
 
       /* Фон*/
@@ -159,7 +163,6 @@ body {
 	position: absolute;
 	left: -37px;
 	top: 135px;
-	opacity: 0.1;
 }
 
 .title__item_car {
@@ -329,7 +332,8 @@ body {
 	font-family: Montserrat;
     left: 80px;
     line-height: 85px;
-    font-style: normal;
+    font-weight: 500;
+	font-style: normal;
     z-index: 2;
 }
 
@@ -357,8 +361,8 @@ body {
 
 .salon__text h1 {
 	font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
+	font-style: normal;
     font-size: 30px;
     color: white;
 }
@@ -382,7 +386,7 @@ body {
   /*Значек ЭКРАН*/
 
 .salon__badges_screen {
-	width: 187px;
+	width: 200px;
     height: 65px;
 }
 
@@ -401,18 +405,24 @@ body {
 	text-align: center;
 	margin-bottom: -10px;
 	margin-top: -10px;
+
 }
 
 .salon__badges_screen li:nth-child(1) {
 	font-family: Montserrat;
     font-size: 35px;
     color: #FFFFFF;
+    font-weight: 500;
+	font-style: normal;
 }
 
 .salon__badges_screen li:nth-child(2) {
 	font-family: Montserrat;
     font-size: 20px;
     color: #FFFFFF;
+    font-weight: 500;
+	font-style: normal;
+	margin-left: 7px;
 }
 .salon__badges_screen li:nth-child(3) {
 	font-family: Montserrat;
@@ -450,6 +460,8 @@ body {
 	font-family: Montserrat;
     font-size: 20px;
     color: white;
+    font-weight: 500;
+	font-style: normal;
 }
 
 .salon__badges_wifi li:nth-child(2) {
@@ -460,7 +472,7 @@ body {
 
   /*Значек БАТАРЕЯ*/
 
-  .salon__badges_battery {
+.salon__badges_battery {
 	width: 202px;
     height: 71px;
     margin-top: 25px;
@@ -480,19 +492,21 @@ body {
 	list-style: none;
 	display: inline-block;
 	margin-bottom: 8px;
-	margin-top: -15px;
+	margin-top: -10px;
 }
 
 .salon__badges_battery li:nth-child(1) {
 	font-family: Montserrat;
     font-size: 35px;
     color: white;
+    font-weight: 500;
+	font-style: normal;
 }
 
 .salon__badges_battery li:nth-child(2) {
     font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
+	font-style: normal;
     font-size: 20px;
     color: white;
     margin-left: 5px;
@@ -576,7 +590,7 @@ body {
 	top: 223px;
 }
 
-.analisis__headline h1 {
+.analysis__headline h1 {
 	position: absolute;
 	width: 830px;
     height: 269px;
@@ -589,4 +603,142 @@ body {
     left: 635px;
     top: -16px;
     opacity: 0.1;
+}
+
+.analysis__text {
+	position: absolute;
+	width: 325px;
+	top: 51px;
+	left: 52px;
+}
+
+.analysis__text h1 {
+	font-family: Montserrat;
+    font-weight: 500;
+	font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.analysis__text p {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.analysis__text_evaluation {
+	position: absolute;
+	width: 325px;
+	left: 56px;
+    top: 320px;
+}
+
+.analysis__text_evaluation h1 {
+	font-family: Montserrat;
+    font-weight: 500;
+	font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.analysis__text_evaluation_paragraphs {
+	position: absolute;
+	width: 316px;
+	height: 134px;
+	top: 80px;
+}
+.analysis__text_evaluation_paragraphs p {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+ .analysis__text_evaluation_paragraphs span {
+ 	font-size: 10px;
+ 	opacity: 0.7;
+ }
+
+ .analysis__text_evaluation_paragraphs_im {
+ 	position:absolute;
+	display: block;
+	left: 170px;
+ }
+
+.analysis__text_evaluation_paragraphs_img {
+    margin-bottom: 7px;
+ }
+
+.analysis__badges_protect {
+	position: absolute;
+	width: 300px;
+	height: 92px;
+	left: 66px;
+	top: 666px;
+}
+
+.analysis__badges_protect_art {
+	float: left;
+}
+
+.analysis__badges_protect ul {
+		margin: 0;
+		margin-left: 50px;
+		margin-top: -10px;
+}
+.analysis__badges_protect li {
+    margin-top: -5px;
+	font-family: Montserrat;
+	list-style: none;
+	display: inline-block;
+}
+
+.analysis__badges_protect li:nth-child(1) {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    color: white;
+}
+
+.analysis__badges_protect li:nth-child(2) {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+.analysis__badges_button {
+	position: absolute;
+	width: 367px;
+	top: 810px;
+	left: 38px;
+}
+
+.analysis__badges_button_art {
+	position: absolute;
+}
+
+.analysis__badges_button span {
+	display: inline-block;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 32px;
+    color: white;
 }
