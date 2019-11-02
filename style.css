@@ -688,9 +688,9 @@ body {
 }
 
 .analysis__badges_protect ul {
-		margin: 0;
-		margin-left: 50px;
-		margin-top: -10px;
+	margin: 0;
+	margin-left: 50px;
+	margin-top: -5px;
 }
 .analysis__badges_protect li {
     margin-top: -5px;
