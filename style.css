@@ -235,7 +235,7 @@ body {
 .title__badges_distance {
 	width: 170px;
 	margin-left: 82px;
-	display: inline-block;
+	display: block;
 	float: left;
 }
 
