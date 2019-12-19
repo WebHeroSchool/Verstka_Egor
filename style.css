@@ -31,7 +31,7 @@ body {
 
      /*Навигационная панель*/
 
-.head__menu {
+.head__nav {
 	position: absolute;
 	left: 420.14px;
 	display: inline;
@@ -72,13 +72,14 @@ body {
 
 .head__reg {
 	position: absolute;
+	width: 200px;
 	height: 19px;
 	left: 1144px;
 	top: 16px;
 }
-.head__list {
+.head-reg__list {
     position: absolute;
-    width:200px;
+    width: 100%;
     left: 10px;
     height: 19px;
     top: 0;
@@ -114,7 +115,7 @@ body {
 	top: 3px;
 }
 
-.head__line {
+.head-dropdown-menu__line{
 	display: block;
 	background-color: #E51937;
 	border-radius: 0 0 2px 2px;
@@ -125,15 +126,15 @@ body {
 	margin-left: 50px;
 }
 
-.head__line:nth-child(1) {
+.head-dropdown-menu__line:nth-child(1) {
 	top: 0;
 }
 
-.head__line:nth-child(2) {
+.head-dropdown-menu__line:nth-child(2) {
 	top: 7px;
 }
 
-.head__line:nth-child(3) {
+.head-dropdown-menu__line:nth-child(3) {
 	top: 14px;
 }
 
