@@ -11,7 +11,7 @@ body {
 }
      /*Шапка сайта*/
 
-.head {
+.head__forehead {
 	position: relative;
     width: 1337.28px;
     height: 51px;
@@ -25,31 +25,20 @@ body {
     position: absolute;
 }
 
-     /*Навигационная панель*/
+.head__icon {
 
-.head__nav {
-	position: absolute;
-	left: 420.14px;
 }
 
-.head__nav div {
+     /*Навигационная панель*/
+
+.head__menu {
+	position: absolute;
+	left: 420.14px;
 	display: inline;
 	margin-right: 20px;
 }
 
-.head__nav div:nth-child(1) {
-	margin-right: 35px;
-}
-
-.head__nav div:nth-child(3) {
-	margin-left: -22px;
-}
-
-.head__nav div:nth-child(4) {
-	margin-right: 20px;
-}
-
-.head__nav li {
+.head-nav__item {
 	display: inline;
 	font-family: Montserrat;
 	font-size: 15px;
@@ -57,18 +46,25 @@ body {
 	font-weight: 600;
 }
 
-.head__nav a {
+.head-nav__item:nth-child(1) {
+	margin-right: 15px;
+}
+.head-nav__item:nth-child(5) {
+	margin-left: 15px;
+}
+
+.head-nav__link {
 	display: inline-block;
 	padding: 15px 10px 10px 10px;
 	text-decoration: none;
 	color: black;
 }
 
-.head__nav_main a {
+.head-nav__link.head-nav__link_active {
 	color: #E51937;
 }
 
-.head__nav_main a:hover {
+.head-nav__link.head-nav__link_active:hover {
 	background: url(images/Vector.png) no-repeat center bottom;
 }
 
@@ -80,13 +76,15 @@ body {
 	left: 1144px;
 	top: 16px;
 }
-
-.head__reg div {
-	display: inline-block;
-	margin-right: 28px;
+.head__list {
+    position: absolute;
+    width:200px;
+    left: 10px;
+    height: 19px;
+    top: 0;
 }
 
-.head__reg li {
+.head-reg__item {
 	display: inline;
 	font-family: Montserrat;
 	font-size: 15px;
@@ -94,7 +92,14 @@ body {
 	font-weight: 600;
 }
 
-.head__reg a {
+.head-reg__item:nth-child(1){
+	margin-right: 25px;
+}
+.head-reg__item:nth-child(2){
+	margin-right: 25px;
+}
+
+.head-reg__link {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
@@ -102,31 +107,33 @@ body {
  
    /*Меню*/
 
-.head__menu {
+.head__dropdown-menu {
 	position: absolute;
 	width: 24px;
 	height: 15px;
 	top: 3px;
 }
 
-.head__menu span {
+.head__line {
 	display: block;
 	background-color: #E51937;
 	border-radius: 0 0 2px 2px;
 	position: absolute;
+	left: 144px;;
 	width: 100%;
 	height: 2px;
+	margin-left: 50px;
 }
 
-.head__menu span:nth-child(1) {
+.head__line:nth-child(1) {
 	top: 0;
 }
 
-.head__menu span:nth-child(2) {
+.head__line:nth-child(2) {
 	top: 7px;
 }
 
-.head__menu span:nth-child(3) {
+.head__line:nth-child(3) {
 	top: 14px;
 }
 
