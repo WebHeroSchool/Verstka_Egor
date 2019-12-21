@@ -80,9 +80,7 @@ body {
 .head-reg__list {
     position: absolute;
     width: 100%;
-    left: 10px;
-    height: 19px;
-    top: 0;
+
 }
 
 .head-reg__item {
@@ -147,7 +145,7 @@ body {
 	height: 765px;
 }
 
-.title__item_caption {
+.title__caption {
 	margin: 0;
 	text-align: center;
 	font-size: 90px;
@@ -155,7 +153,7 @@ body {
 	font-weight: 500;
 	font-style: normal;
 }
-.title__item_under {
+.title__under {
 	margin: -10px 0 0 0;
 	text-align: center;
 	font-size: 15px;
@@ -167,13 +165,17 @@ body {
 
       /* Фон*/
 
-.title__item_picture {
+.title__picture {
+	width: 1514px; 
+	height: 467px;
 	position: absolute;
 	left: -37px;
 	top: 135px;
 }
 
-.title__item_car {
+.title__car {
+	width: 968px; 
+	height: 450px;
 	position: absolute;
 	left: 236px;
 	top: 279px;
@@ -186,7 +188,7 @@ body {
 	width: 890px;
 }
 
-.title__badges_speed_list {
+.title__list {
 	margin-top: 0;
 }
 
@@ -203,23 +205,25 @@ body {
 
    /*Скорость*/
 
-.title__badges_speed {
+.title__speed {
 	display: block;
 	width: 170px;
     float: left;
 }
 
-.title__badges_speed_art {
+.title-speed__art {
 	margin-top: 15px;
 	margin-right: 15px;
 	float: left;
+	width: 48px; 
+	height: 36px;
 }
 
-.title__badges_speed_list {
-
+.title-speed__list {
+	margin: 0;
 }
 
-.title__badges_speed_list li {
+.title-speed__item {
 	font-family: Montserrat;
 	list-style: none;
 	display: inline-block;
@@ -227,41 +231,43 @@ body {
 	margin-bottom: -10px;
 }
 
-.title__badges_speed_list li:nth-child(1) {
+.title-speed__item:nth-child(1) {
 	font-weight: 600;
     font-size: 35px;
 }
 
-.title__badges_speed_list li:nth-child(2) {
+.title-speed__item:nth-child(2) {
 	font-weight: 600;
     font-size: 20px;
 }
 
-.title__badges_speed_list li:nth-child(3) {
+.title-speed__item:nth-child(3) {
 	font-weight: normal;
     font-size: 12px;
 }
 
    /*Расстояние*/
 
-.title__badges_distance {
+.title__distance {
 	width: 170px;
 	margin-left: 82px;
 	display: block;
 	float: left;
 }
 
-.title__badges_distance_art {
+.title-distance__art {
 	margin-top: 10px;
 	margin-right: 10px;
 	float: left;
+	width: 30px; 
+	height: 48px;
 }
 
-.title__badges_distance_list {
+.title-distance__list {
 	margin: 0;
 }
 
-.title__badges_distance_list li {
+.title-distance__item {
 	font-family: Montserrat;
 	list-style: none;
 	display: inline-block;
@@ -269,19 +275,19 @@ body {
 	margin-bottom: -10px;
 }
 
-.title__badges_distance_list li:nth-child(1) {
+.title-distance__item:nth-child(1) {
 	font-weight: 600;
     font-size: 35px;
 
 }
 
-.title__badges_distance_list li:nth-child(2) {
+.title-distance__item:nth-child(2) {
     font-weight: 600;
     font-size: 20px;
  
 }
 
-.title__badges_distance_list li:nth-child(3) {
+.title-distance__item:nth-child(3) {
 	font-weight: normal;
     font-size: 12px;
     
@@ -290,18 +296,20 @@ body {
 
     /* КНОПКА */
 
-.title__badges_button {
+.title__test {
 	height: 22px;
 	float: left;
 	margin-left: 55px;
 	margin-top: 25px;
 }
 
-.title__badges_button_art {
+.title-test__art {
 	float: left;
+	width: 22px; 
+	height: 22px;
 }
 
-.title__badges_button_line {
+.title-test__line {
 	margin-left: 7px;
 	display: inline-block;
 	font-family: Montserrat;
@@ -312,7 +320,7 @@ body {
     line-height: 16px;
 }
 
-.title__badges_order_button {
+.title-button__order {
 	background-color: white;
 	width: 160px;
 	height: 40px;
@@ -339,7 +347,7 @@ body {
 	height: 900px;
 }
 
-.salon__headline h1 {
+.salon-headline__title {
 	position: absolute;
 	width: 488px;
     height: 86px;
@@ -359,6 +367,11 @@ body {
 	z-index: 1;
 }
 
+.salon-art__desk {
+	width: 1280px; 
+	height: 865px;
+}
+
 .salon__sidebar {
 	position: absolute;
     width: 440px;
@@ -375,7 +388,7 @@ body {
 	left: 52px;
 }
 
-.salon__text_caption{
+.salon-text__caption{
 	font-family: Montserrat;
     font-weight: 500;
 	font-style: normal;
@@ -383,7 +396,7 @@ body {
     color: white;
 }
 
-.salon__text_section {
+.salon-text__section {
 	font-family: Montserrat;
     font-size: 15px;
     color: white;
@@ -401,20 +414,22 @@ body {
 
   /*Значек ЭКРАН*/
 
-.salon__badges_screen {
+.salon-badges__screen {
 	width: 200px;
     height: 65px;
 }
 
-.salon__badges_screen_art {
+.salon-badges__art {
 	position: absolute;
+	width: 40px; 
+	height: 57px;
 }
 
-.salon__badges_screen_list{
+.salon-badges__list{
 	margin-left: 19px;
 
 }
-.salon__badges_screen_list li {
+.salon-badges_item {
 	font-family: Montserrat;
 	list-style: none;
 	display: inline-block;
@@ -424,7 +439,7 @@ body {
 
 }
 
-.salon__badges_screen_list li:nth-child(1) {
+.salon-badges_item:nth-child(1) {
 	font-family: Montserrat;
     font-size: 35px;
     color: #FFFFFF;
@@ -432,7 +447,7 @@ body {
 	font-style: normal;
 }
 
-.salon__badges_screen_list li:nth-child(2) {
+.salon-badges_item:nth-child(2) {
 	margin-left: 7px;
 	font-family: Montserrat;
     font-size: 20px;
@@ -440,7 +455,7 @@ body {
 	font-style: normal;
 	color: #FFFFFF;
 }
-.salon__badges_screen_list li:nth-child(3) {
+.salon-badges_item:nth-child(3) {
 	font-family: Montserrat;
     font-size: 12px;
     color: #FFFFFF;
@@ -448,23 +463,25 @@ body {
 
 /* Значек Wifi*/
 
-.salon__badges_wifi {
+.salon__wifi {
 	width: 269px;
     height: 71px;
     margin-top: 44px;
 }
 
-.salon__badges_wifi_art {
+.salon-wifi__art {
 	position: absolute;
 	left: -5px;
+	width: 49px; 
+	height: 38px;
 }
 
-.salon__badges_wifi_list {
+.salon-wifi__list {
 	margin-left: 22px;
 
 }
 
-.salon__badges_wifi_list li {
+.salon-wifi__item {
 	font-family: Montserrat;
 	list-style: none;
 	display: inline-block;
@@ -472,7 +489,7 @@ body {
 	margin-top: -20px;
 }
 
-.salon__badges_wifi_list li:nth-child(1) {
+.salon-wifi__item:nth-child(1) {
 	font-family: Montserrat;
     font-size: 20px;
     font-weight: 500;
@@ -480,7 +497,7 @@ body {
 	color: white;
 }
 
-.salon__badges_wifi_list li:nth-child(2) {
+.salon-wifi__item:nth-child(2) {
     font-family: Montserrat;
     font-size: 12px;
     color: white;
@@ -488,22 +505,22 @@ body {
 
   /*Значек БАТАРЕЯ*/
 
-.salon__badges_battery {
+.salon__battery {
 	width: 202px;
     height: 71px;
     margin-top: 25px;
 }
 
-.salon__badges_battery_art {
+.salon-battery__art {
 	position: absolute;
 }
 
-.salon__badges_battery_list {
+.salon-battery__list {
 	margin-left: 20px;
 
 }
 
-.salon__badges_battery_list li {
+.salon-battery__item {
 	font-family: Montserrat;
 	list-style: none;
 	display: inline-block;
@@ -511,7 +528,7 @@ body {
 	margin-top: -10px;
 }
 
-.salon__badges_battery_list li:nth-child(1) {
+.salon-battery__item:nth-child(1) {
 	font-family: Montserrat;
     font-size: 35px;
     color: white;
@@ -519,7 +536,7 @@ body {
 	font-style: normal;
 }
 
-.salon__badges_battery_list li:nth-child(2) {
+.salon-battery__item:nth-child(2) {
     font-family: Montserrat;
     font-weight: 500;
 	font-style: normal;
@@ -528,7 +545,7 @@ body {
     margin-left: 5px;
  }
 
- .salon__badges_battery_list li:nth-child(3) {
+ .salon-battery__item:nth-child(3) {
  	font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -540,16 +557,18 @@ body {
 
     /* КНОПКА */
 
- .salon__badges_button {
+ .salon__button {
  	width: 367px;
 	margin-top: 100px;
 }
 
-.salon__badges_button_art {
-     float: left;
+.salon-button__art {
+	width: 22px; 
+	height: 22px;
+    float: left;
 }
 
-.salon__badges_button_memo {
+.salon-button__memo {
 	display: inline-block;
 	margin-top: 3px;
 	margin-left: 7px;
@@ -565,7 +584,7 @@ body {
     color: white;
 }
 
-.salon__badges_order_button {
+.salon-button__order {
 	background-color: #E51937;
 	width: 160px;
 	height: 40px;
@@ -598,6 +617,173 @@ body {
     background-color: #E51937;
 }
 
+.analysis__text {
+	position: absolute;
+	width: 325px;
+	top: 51px;
+	left: 52px;
+}
+
+.analysis-text__caption {
+	font-family: Montserrat;
+    font-weight: 500;
+	font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.analysis-text__section {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.analysis__evaluation {
+	position: absolute;
+	width: 325px;
+	left: 56px;
+    top: 320px;
+}
+
+.analysis-evaluation__catpion {
+	font-family: Montserrat;
+    font-weight: 500;
+	font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.analysis-evaluation__rating {
+	position: absolute;
+	width: 316px;
+	height: 134px;
+	top: 80px;
+}
+.analysis-rating__item {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+ .analysis-rating__small {
+ 	font-size: 10px;
+ 	opacity: 0.7;
+ }
+
+ .analysis-evaluation__container {
+ 	position:absolute;
+	display: block;
+	left: 170px;
+ }
+
+.analysis-evaluation__star {
+    margin-bottom: 7px;
+
+ }
+
+ .analysis-evulation__line {
+ 	
+ }
+
+ .analysis-evaluation__item {
+ 	width: 25px; 
+ 	height: 25px;
+ }
+
+.analysis__protect {
+	position: absolute;
+	width: 300px;
+	height: 92px;
+	left: 66px;
+	top: 666px;
+}
+
+.analysis-protect__art {
+	float: left;
+	width: 62px; 
+	height: 74px;
+}
+
+.analysis-protect__list {
+	margin: 0;
+	margin-left: 50px;
+	margin-top: -5px;
+}
+.analysis-protect__item {
+    margin-top: -5px;
+	font-family: Montserrat;
+	list-style: none;
+	display: inline-block;
+}
+
+.analysis-protect__item:nth-child(1) {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    color: white;
+}
+
+.analysis-protect__item:nth-child(2) {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+.analysis__button {
+	position: absolute;
+	width: 367px;
+	top: 810px;
+	left: 38px;
+}
+
+.analysis-button__art {
+	position: absolute;
+}
+
+.analysis-button__memo {
+	display: inline-block;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 32px;
+    color: white;
+}
+
+.analysis-button__order {
+	background-color: #E51937;
+	width: 160px;
+	height: 40px;
+	margin-left: 22px;
+    margin-top: -9px;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid white;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .analysis__art {
 	position: absolute;
 	left: 345px;
@@ -605,7 +791,7 @@ body {
 	z-index: 1;
 }
 
-.analysis__headline_caption {
+.analysis__caption {
 	position: absolute;
 	width: 830px;
     height: 269px;
@@ -618,142 +804,4 @@ body {
 	line-height: 244px;
     color: #E51937;
     opacity: 0.1;
-}
-
-.analysis__text {
-	position: absolute;
-	width: 325px;
-	top: 51px;
-	left: 52px;
-}
-
-.analysis__text_caption {
-	font-family: Montserrat;
-    font-weight: 500;
-	font-style: normal;
-    font-size: 30px;
-    line-height: 37px;
-    color: #FFFFFF;
-}
-
-.salon__text_section {
-	font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    color: #FFFFFF;
-}
-
-.analysis__text_evaluation {
-	position: absolute;
-	width: 325px;
-	left: 56px;
-    top: 320px;
-}
-
-.analysis__text_evaluation_catpion {
-	font-family: Montserrat;
-    font-weight: 500;
-	font-style: normal;
-    font-size: 30px;
-    line-height: 37px;
-    color: #FFFFFF;
-}
-
-.analysis__text_evaluation_rating {
-	position: absolute;
-	width: 316px;
-	height: 134px;
-	top: 80px;
-}
-.analysis__text_evaluation_rating p {
-	font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 18px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
- .analysis__text_evaluation_rating_small {
- 	font-size: 10px;
- 	opacity: 0.7;
- }
-
- .analysis__text_evaluation_rating_container {
- 	position:absolute;
-	display: block;
-	left: 170px;
- }
-
-.analysis__text_evaluation_rating_img {
-    margin-bottom: 7px;
- }
-
-.analysis__badges_protect {
-	position: absolute;
-	width: 300px;
-	height: 92px;
-	left: 66px;
-	top: 666px;
-}
-
-.analysis__badges_protect_art {
-	float: left;
-}
-
-.analysis__badges_protect_list {
-	margin: 0;
-	margin-left: 50px;
-	margin-top: -5px;
-}
-.analysis__badges_protect_list li {
-    margin-top: -5px;
-	font-family: Montserrat;
-	list-style: none;
-	display: inline-block;
-}
-
-.analysis__badges_protect_list li:nth-child(1) {
-	font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 61px;
-    color: white;
-}
-
-.analysis__badges_protect_list li:nth-child(2) {
-	font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    color: white;
-}
-
-.analysis__badges_button {
-	position: absolute;
-	width: 367px;
-	top: 810px;
-	left: 38px;
-}
-
-.analysis__badges_button_art {
-	position: absolute;
-}
-
-.analysis__badges_button_memo {
-	display: inline-block;
-	font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    text-align: center;
-    margin-left: 32px;
-    color: white;
 }
