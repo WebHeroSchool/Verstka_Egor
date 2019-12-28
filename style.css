@@ -146,7 +146,7 @@ body {
 }
 
 .title__header {
-
+	
 }
 
 .title__caption {
@@ -192,7 +192,9 @@ body {
 	width: 890px;
 }
 
-
+.title__list {
+	margin-top: 0;
+}
 
 .title__badges:after {
 	width: 38px;
