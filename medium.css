@@ -1,0 +1,343 @@
+@media (max-width: 768px) {
+	body {
+	    width: 768px;
+	    height: 3073px;
+	    position: relative;
+      }
+
+	.head__forehead {
+	    position: relative;
+        width: 708px;
+        height: 51px;
+        top: 24px;
+        left: 42.72px;
+      }
+	.head__nav {
+		display: none;
+	  }
+
+    .head-reg__list {
+    	display: none;
+      }
+
+    .head__dropdown-menu {
+	    left: -500px;
+     }
+
+    .head-dropdown-menu__line {
+	    left: 0;
+        margin-left: 0;
+    }
+
+     .head-dropdown-menu__line:nth-child(1) {
+	    top: 0;
+     }
+
+     .head-dropdown-menu__line:nth-child(2) {
+	    top: 7px;
+     }
+
+     .head-dropdown-menu__line:nth-child(3) {
+	    top: 14px;
+     }
+
+    .title {
+	    width: 768px;
+	    height: 765px;
+      }
+
+    .title__picture {
+    	width: 821.81px;
+        height: 271.49px;
+	    position: absolute;
+	    left: -37px;
+	    top: 251.87px;
+      }
+
+    .title__car {
+	    width: 672.6px;
+        height: 327.64px;
+	    position: absolute;
+	    left: calc(50% - 672.6px/2 + 0px);
+	    top: 361.3px;
+      }
+
+
+      .title__badges {
+	    position: relative;
+	    margin: 459px 0 0 151px;
+	    width: 890px;
+      }
+
+      .title__badges:after {
+	    top: 210px;
+	    left: 235px;
+     }
+
+      .title__speed {
+	    width: 220px;
+        float: left;
+      }
+
+      .title-speed__list {
+	    margin: 0;
+      }
+
+      .title-speed__art {
+	    float: left;
+	    width: 65.92px;
+        height: 48.91px;
+      }
+
+
+      .title-speed__item:nth-child(1) {
+	    font-weight: 500;
+        font-size: 50px;
+        float: left;
+      }
+
+      .title-speed__item:nth-child(2) {
+        margin-left: 5px;
+        margin-top: 25px;
+      }
+
+      .title-speed__item:nth-child(3) {
+	    font-weight: 400;
+        font-size: 12px;
+      }
+
+      .title__distance {
+	    width: 220px;
+        float: left;
+      }
+
+      .title-distance__art {
+	    margin-top: 10px;
+	    margin-right: 10px;
+	    float: left;
+	    width: 37.83px;
+        height: 60.72px;
+      }
+
+      .title-distance__list {
+	    margin: 0;
+      }
+
+      .title-distance__item:nth-child(1) {
+	   font-weight: 500;
+       font-size: 50px;
+       float: left;
+      }
+
+      .title-distance__item:nth-child(2) {
+        margin-left: 10px;
+        margin-top: 22px;
+        font-size: 20px;
+      }
+       
+      .title-distance__item:nth-child(3) {
+	    font-weight: 400;
+        font-size: 12px;
+        margin-right: 100px;
+      }
+
+
+    .title__test {
+	    height: 22px;
+	    margin-left: 55px;
+	    margin-top: 55px;
+	    clear: both;
+	    top: 91.11px;
+	    color: #E51937;
+       }
+
+     .title-test__art {
+	    width: 30px; 
+	    height: 30px;
+       }
+
+     .title-test__line {
+	    margin-left: 9px;
+	    margin-top: 8px;
+        font-size: 16px;
+        text-transform: uppercase;
+       }
+       
+     .title-button__order {
+	    background-color: #E51937;
+	    width: 220.84px;
+        height: 55.21px;
+	    margin-left: 40px;
+	    margin-top: 45px;
+	    float: left;
+        font-weight: 500;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+       }
+
+
+     .salon {
+	    position: relative;
+	    width: 900px;
+	    height: 900px;
+       }
+
+      .salon__art {
+	    position: absolute;
+	    top: 68px;
+	    z-index: 1;
+       }
+
+      .salon-art__desk {
+      	position: absolute;
+	    width: 768px;
+        height: 500.82px;
+        left: 0px;
+       }
+
+      .salon__sidebar {
+	    position: absolute;
+        width: 768px;
+        height: 487.21px;
+        top: 564px;
+        left: 0;
+        background-color: #E51937;
+        z-index: 3;
+       }
+
+      .salon-headline__title {
+       	float: right;
+       	left: 434px;
+       }
+
+      .salon__text {
+	    position: absolute;
+	    width: 325px;
+	    top: 45px;
+	    left: 52px;
+       }
+
+      .salon__badges {
+	    width: auto;
+	    height: auto;
+	    position: absolute;
+	    top: 57px;
+	    left: 454px;
+        }
+
+
+       .salon__button {
+       	position: absolute;
+ 	    width: 450px;
+	    margin-top: 61px;
+	    right: 110px;
+
+        }
+
+      .salon-button__order {
+	    width: 220px;
+	    height: 55px;
+        margin-top: -15px;
+        margin-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        }
+
+
+      .salon-button__memo {
+        font-size: 16px;
+        margin-top: 8px;
+        font-weight: 500;
+        margin-left: 15px;
+        }
+
+      .salon-button__art {
+	     width: 31px; 
+	     height: 31px;
+         float: left;
+        }
+
+      .analysis {
+	     position: relative;
+	     width: 768px;
+        }
+
+      .analysis__art {
+	     position: absolute;
+     	 left: 0px;
+     	 z-index: 1;
+     	 width: 750px;
+         height: 386px;
+        }
+
+      .analysis__car {
+       	position: absolute;
+         width: 750px;
+         height: 386px;	
+         top: 20px;
+        }
+
+      .analysis__caption {
+	     position: absolute;
+	     width: 665.77px;
+         height: 192.36px;
+         left: 82.61px;
+         top: 37.6px;
+	     font-size: 148px;
+        }
+
+      .analysis__sidebar {
+	     position: absolute;
+         width: 768px;
+         height: 487.21px;
+         background-color: #E51937;
+         top: 671px;
+        }
+
+      .analysis__evaluation {
+	     position: absolute;
+	     width: 325px;
+	     left: 421px;
+         top: 52px;
+        }
+
+      .analysis__protect {
+	     position: absolute;
+	     width: 300px;
+	     height: 92px;
+	     left: 66px;
+	     top: 666px;
+        }
+
+      .analysis__button {
+	     position: absolute;
+	     width: 480px;
+	     top: 385px;
+	     left: 154px;
+        }
+
+      .analysis__protect {
+	     display: none;
+        }
+
+      .analysis-button__memo {
+         font-size: 16px;
+         margin-left: 45px;
+        }
+
+       .analysis-button__order {
+	     background-color: #E51937;
+	     width: 220.84px;
+         height: 55.21px;
+	     margin-left: 22px;
+         margin-top: -9px;
+         font-size: 16px;
+
+        }
+
+       .analysis-button__art {
+	     width: 31.18px;
+         height: 31.18px;
+        }
+}
