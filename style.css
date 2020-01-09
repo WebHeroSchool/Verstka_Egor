@@ -836,22 +836,10 @@ body {
       }
 
     .head__dropdown-menu {
-     	display: block;
-	    background-color: #E51937;
-	    border-radius: 0 0 2px 2px;
-	    position: relative;
-	    width: 24px;
-	    height: 2px;
 	    left: -500px;
      }
 
-    .head-dropdown-menu__line{
-	    display: block;
-	    background-color: #E51937;
-	    border-radius: 0 0 2px 2px;
-	    position: absolute;
-	    width: 24px;
-	    height: 2px;
+    .head-dropdown-menu__line {
 	    left: 0;
         margin-left: 0;
     }
@@ -869,8 +857,6 @@ body {
      }
 
     .title {
-	    display: block;
-        margin-top: 80px;
 	    width: 768px;
 	    height: 765px;
       }
@@ -899,17 +885,11 @@ body {
       }
 
       .title__badges:after {
-	    width: 38px;
-	    height: 24px;
 	    top: 210px;
-	    left: 200px;
-	    position: absolute;
-	    content: "";
-	    background: url(images/Vector2.png) no-repeat center center;
+	    left: 235px;
      }
 
       .title__speed {
-	    display: block;
 	    width: 220px;
         float: left;
       }
@@ -919,19 +899,11 @@ body {
       }
 
       .title-speed__art {
-	    margin-top: 15px;
-	    margin-right: 15px;
 	    float: left;
 	    width: 65.92px;
         height: 48.91px;
       }
 
-      .title-speed__item {
-	    font-family: Montserrat;
-	    list-style: none;
-	    display: inline-block;
-	    text-align: center;
-      }
 
       .title-speed__item:nth-child(1) {
 	    font-weight: 500;
@@ -950,17 +922,9 @@ body {
       }
 
       .title__distance {
-	    display: block;
 	    width: 220px;
         float: left;
       }
-
-      .title-distance__item {
-	    font-family: Montserrat;
-	    list-style: none;
-	    display: inline-block;
-	    text-align: center;
-       }
 
       .title-distance__art {
 	    margin-top: 10px;
@@ -1010,35 +974,185 @@ body {
      .title-test__line {
 	    margin-left: 9px;
 	    margin-top: 8px;
-	    display: inline-block;
-	    font-family: Montserrat;
-        font-weight: bold;
         font-size: 16px;
         text-transform: uppercase;
-        text-align: center;
-        line-height: 16px;
        }
        
      .title-button__order {
 	    background-color: #E51937;
 	    width: 220.84px;
         height: 55.21px;
-	    padding: 10px 10px 10px 10px;
-	    border: 2px solid #E51937;
 	    margin-left: 40px;
 	    margin-top: 45px;
 	    float: left;
-	    font-family: Montserrat;
-        font-style: normal;
         font-weight: 500;
         font-size: 13px;
-        line-height: 20px;
-        text-align: center;
         text-transform: uppercase;
         color: #FFFFFF;
        }
 
 
+     .salon {
+	    position: relative;
+	    width: 900px;
+	    height: 900px;
+       }
+
+      .salon__art {
+	    position: absolute;
+	    top: 68px;
+	    z-index: 1;
+       }
+
+      .salon-art__desk {
+      	position: absolute;
+	    width: 768px;
+        height: 500.82px;
+        left: 0px;
+       }
+
+      .salon__sidebar {
+	    position: absolute;
+        width: 768px;
+        height: 487.21px;
+        top: 564px;
+        left: 0;
+        background-color: #E51937;
+        z-index: 3;
+       }
+
+      .salon-headline__title {
+       	float: right;
+       	left: 434px;
+       }
+
+      .salon__text {
+	    position: absolute;
+	    width: 325px;
+	    top: 45px;
+	    left: 52px;
+       }
+
+      .salon__badges {
+	    width: auto;
+	    height: auto;
+	    position: absolute;
+	    top: 57px;
+	    left: 454px;
+        }
 
 
+       .salon__button {
+       	position: absolute;
+ 	    width: 450px;
+	    margin-top: 61px;
+	    right: 110px;
+
+        }
+
+      .salon-button__order {
+	    width: 220px;
+	    height: 55px;
+        margin-top: -15px;
+        margin-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        }
+
+
+      .salon-button__memo {
+        font-size: 16px;
+        margin-top: 8px;
+        font-weight: 500;
+        margin-left: 15px;
+        }
+
+      .salon-button__art {
+	     width: 31px; 
+	     height: 31px;
+         float: left;
+        }
+
+      .analysis {
+	     position: relative;
+	     width: 768px;
+        }
+
+      .analysis__art {
+	     position: absolute;
+     	 left: 0px;
+     	 z-index: 1;
+     	 width: 750px;
+         height: 386px;
+        }
+
+      .analysis__car {
+       	position: absolute;
+         width: 750px;
+         height: 386px;	
+         top: 20px;
+        }
+
+      .analysis__caption {
+	     position: absolute;
+	     width: 665.77px;
+         height: 192.36px;
+         left: 82.61px;
+         top: 37.6px;
+	     font-size: 148px;
+        }
+
+      .analysis__sidebar {
+	     position: absolute;
+         width: 768px;
+         height: 487.21px;
+         background-color: #E51937;
+         top: 671px;
+        }
+
+      .analysis__evaluation {
+	     position: absolute;
+	     width: 325px;
+	     left: 421px;
+         top: 52px;
+        }
+
+      .analysis__protect {
+	     position: absolute;
+	     width: 300px;
+	     height: 92px;
+	     left: 66px;
+	     top: 666px;
+        }
+
+      .analysis__button {
+	     position: absolute;
+	     width: 480px;
+	     top: 385px;
+	     left: 154px;
+        }
+
+      .analysis__protect {
+	     display: none;
+        }
+
+      .analysis-button__memo {
+         font-size: 16px;
+         margin-left: 45px;
+        }
+
+       .analysis-button__order {
+	     background-color: #E51937;
+	     width: 220.84px;
+         height: 55.21px;
+	     margin-left: 22px;
+         margin-top: -9px;
+         font-size: 16px;
+
+        }
+
+       .analysis-button__art {
+	     width: 31.18px;
+         height: 31.18px;
+        }
 }
