@@ -1,7 +1,7 @@
 @media (max-width: 375px) {
 	body {
 	    width: 375px;
-	    height: 3073px;
+	    height: 1895px;
 	    position: relative;
 	    border: 1px solid black;
       }
@@ -21,6 +21,10 @@
        height: 15px;
        left: -860px;
        top: 69px;
+      }
+
+      .title {
+	   height: 200px;
       }
 
 
@@ -171,6 +175,144 @@
         font-weight: 500;
         font-size: 13px;
        }
+
+       .salon {
+	    position: relative;
+	    width: 100%;
+	    height: 550px;
+       }
+
+       .salon-headline__title {
+	    display: none;
+       }
+
+       .salon__art {
+     	position: absolute;
+     	top: 0;
+     	z-index: 1;
+     	width: 375px;
+     	height: 337px;
+     	overflow: hidden;
+       }
+
+       .salon-art__desk {
+       	background: url('image/2013-tesla-model-s-cockpit(mobile).png') no-repeat center center;
+        background-size: cover;
+        width: 470px;
+     	height: 337px;
+       }
+
+       .salon__sidebar {
+	    position: absolute;
+        width: 375px;
+        height: 304px;
+        top: 337px;
+        left: 0;
+        background-color: #E51937;
+       }
+
+       .salon__text {
+	    position: absolute;
+	    width: 325px;
+	    top: 0;
+	    left: 29px;
+       }  
+
+       .salon-text__caption{
+    	font-family: Montserrat;
+        font-weight: 500;
+    	font-style: normal;
+        font-size: 30px;
+        color: white;
+        margin: 18px 0 18px 0;
+       }
+
+      .salon__badges {
+	    display: none;
+	    position: absolute;
+	    top: 0;
+	    left: 52px;
+       }
+
+
+       .analysis {
+	    position: relative;
+	    height: 900px;
+	    width: 375px;
+	    overflow: hidden;
+      }
+
+      .analysis__sidebar {
+	    position: absolute;
+        width: 400px;
+        height: 304px;
+        background-color: #E51937;
+        top: 400px;
+      }
+
+      .analysis__caption {
+        left: -8px;
+        top: -16px;
+	    font-size: 100px;
+      }
+
+       .analysis__car {
+       	position: absolute;
+        width: 361.83px;
+        height: 186.25px;	
+        top: -55px;
+        
+      }
+      .analysis__art {
+	     position: absolute;
+     	 left: 0px;
+     	 z-index: 1;
+     	 width: 750px;
+         height: 200px;
+        }
+
+
+      .analysis__text {
+	    position: absolute;
+	    width: 360px;
+	    height: 304px;
+	    top: 0px;
+	    left: 29px;
+      }
+
+      .analysis-text__caption {
+	    font-family: Montserrat;
+        font-weight: 500;
+	    font-style: normal;
+        font-size: 30px;
+        line-height: 37px;
+        color: #FFFFFF;
+      }
+
+      .analysis-text__section {
+      	display:block;
+      	width: 310px;
+	    font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+      }
+
+      .analysis__evaluation {
+         display: none;
+        }
+
+      .analysis__protect {
+	     display: none;
+        }
+
+      .analysis__button {
+	     display: none;
+        }
+
+
 
 
 }
