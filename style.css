@@ -5,7 +5,7 @@
 body {
 	margin: auto;
 	padding: auto;
-	width: 1440px;
+	max-width: 1440px;
 	height: 2700px;
 	position: relative;
 }
@@ -13,7 +13,7 @@ body {
 
 .head__forehead {
 	position: relative;
-    width: 1337.28px;
+    max-width: 1337.28px;
     height: 51px;
     top: 24px;
     left: 42.72px;
@@ -64,7 +64,7 @@ body {
 	color: #E51937;
 }
 
-.head-nav__link.head-nav__link_active:hover {
+.head-nav__link.head-nav__link_active{
 	background: url(images/Vector.png) no-repeat center bottom;
 }
 
@@ -141,7 +141,7 @@ body {
 .title {
 	display: block;
     margin-top: 80px;
-	width: 1440px;
+	max-width: 1440px;
 	height: 765px;
 }
 
@@ -325,11 +325,9 @@ body {
 }
 
 .title-button__order {
-	background-color: white;
 	width: 160px;
 	height: 40px;
 	padding: 10px 10px 10px 10px;
-	border: 2px solid #E51937;
 	margin-left: 40px;
 	margin-top: 15px;
 	font-family: Montserrat;
@@ -341,6 +339,12 @@ body {
     text-transform: uppercase;
     color: #E51937;
 }
+
+.title-button__order:hover {
+       background-color: #E51937;
+       color: white;
+}
+
 
 
 /* Вторая секция*/
