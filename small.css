@@ -1,9 +1,8 @@
 @media (max-width: 375px) {
 	body {
-	    width: 375px;
-	    height: 1895px;
+	    max-width: 375px;
+	    height: 1861px;
 	    position: relative;
-	    border: 1px solid black;
       }
 
       .head__icon {
