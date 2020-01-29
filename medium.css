@@ -1,20 +1,27 @@
 @media (max-width: 768px) {
 	body {
-	    width: 768px;
-	    height: 3073px;
+	    max-width: 768px;
+	    height: 2090px;
 	    position: relative;
       }
 
 	.head__forehead {
 	    position: relative;
-        width: 708px;
-        height: 51px;
-        top: 24px;
-        left: 42.72px;
+      width: 708px;
+      height: 51px;
+      top: 24px;
+      left: 42.72px;
       }
-	.head__nav {
-		display: none;
-	  }
+
+    .head__logo {
+      width: 166px;
+      height: 51px;
+      position: absolute;
+       }
+
+	  .head__nav {
+		  display: none;
+	    }
 
     .head-reg__list {
     	display: none;
@@ -22,24 +29,24 @@
 
     .head__dropdown-menu {
 	    left: -500px;
-     }
+      }
 
     .head-dropdown-menu__line {
 	    left: 0;
-        margin-left: 0;
-    }
+      margin-left: 0;
+      }
 
      .head-dropdown-menu__line:nth-child(1) {
 	    top: 0;
-     }
+      }
 
      .head-dropdown-menu__line:nth-child(2) {
 	    top: 7px;
-     }
+      }
 
      .head-dropdown-menu__line:nth-child(3) {
 	    top: 14px;
-     }
+      }
 
     .title {
 	    width: 768px;
@@ -48,7 +55,7 @@
 
     .title__picture {
     	width: 821.81px;
-        height: 271.49px;
+      height: 271.49px;
 	    position: absolute;
 	    left: -37px;
 	    top: 251.87px;
@@ -56,7 +63,7 @@
 
     .title__car {
 	    width: 672.6px;
-        height: 327.64px;
+      height: 327.64px;
 	    position: absolute;
 	    left: calc(50% - 672.6px/2 + 0px);
 	    top: 361.3px;
@@ -86,7 +93,7 @@
       .title-speed__art {
 	    float: left;
 	    width: 65.92px;
-        height: 48.91px;
+      height: 48.91px;
       }
 
 
