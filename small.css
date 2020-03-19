@@ -1,317 +1,367 @@
-@media (max-width: 375px) {
-	body {
-	    max-width: 375px;
-	    height: 1861px;
-	    position: relative;
-      }
-
-      .head__icon {
-      	position: absolute;
-        width: 138px;
-        height: 42px;
-        left: -40px;
-        top: 75px;
-
-      }
-
-      .head__dropdown-menu {
-	   position: absolute;
-       width: 24px;
-       height: 15px;
-       left: -860px;
-       top: 69px;
-      }
-
-      .title {
-	   height: 200px;
-      }
+@media (max-width: 766px){
+   .analysis__content {
+        background: url("images/Model S.png") center 6% no-repeat;
+        background-size: 75% auto;
+}
 
 
-      .title__caption {
-	    position: absolute;
-        width: 206px;
-        height: 61px;
-        left: 85px;
-        top: 147px;
-        font-size: 50px;
-	    font-family: Montserrat;
-	    font-weight: 500;
-	    font-style: normal;
-      }
-     .title__under {
-	    position: absolute;
-        width: 161px;
-        height: 13px;
-        left: 108px;
-        top: 205px;
-	    font-size: 10px;
-	    line-height: 18px;
-	    font-family: Montserrat;
-	    font-weight: 400;
-	    font-style: normal;
-      }
+}
+@media(max-width: 628px) {
+	.left-sidebar__row {
+        display: flex;
+        flex-flow: column wrap;
+}
+    .left-sidebar__caption {
+	    text-align: center;
+}
 
-     .title__car {
-	    width: 357px;
-        height: 166px;
-	    position: absolute;
-	    left: 9px;
-	    top: 267px;
-      }
+}
 
-      .title__picture {
-	    width: 428px;
-        height: 139px;
-	    position: absolute;
-	    left: -29px;
-	    top: 226px;
-      }
-
-       .title__badges {
-	    position: relative;
-	    margin: 390px 0 0 51px;
-	    width: 890px;
-      }
-
-      .title__badges:after {
-	    top: 180px;
-	    left: 125px;
-     }
-
-     .title__speed {
-	    width: 160px;
-        float: left;
-      }
-
-      .title-speed__list {
-	    margin: 10px;
-      }
-
-      .title-speed__art {
-	    float: left;
-	    width: 38.14px;
-        height: 27.98px;
-      }
-
-
-      .title-speed__item:nth-child(1) {
-	    font-weight: 500;
-        font-size: 27px;
-      }
-
-      .title-speed__item:nth-child(2) {
-      	margin-top: 12px;
-        margin-left: 5px;
-        font-size: 15px;
-      }
-
-      .title-speed__item:nth-child(3) {
-	    font-weight: 400;
-        font-size: 10px;
-      }
-
-      .title__distance {
-	    width: 170px;
-        float: left;
-        margin-left: 0;
-      }
-
-      .title-distance__art {
-	    margin-top: 10px;
-	    margin-right: 10px;
-	    float: left;
-	    width: 21.89px;
-        height: 34.74px;
-      }
-
-      .title-distance__list {
-	    margin: 5px 0 0 0;
-      }
-
-      .title-distance__item:nth-child(1) {
-	    font-weight: 500;
-        font-size: 27px;
-        float: left;
-      }
-
-      .title-distance__item:nth-child(2) {
-        margin-left: 5px;
-        margin-top: 12px;
-        font-size: 15px;
-      }
-       
-      .title-distance__item:nth-child(3) {
-	    font-weight: 400;
-        font-size: 10px;
-        margin-right: 0;
-      }
-
-      .title__test {
-	    height: 22px;
-	    margin-left: 0;
-	    margin-top: 55px;
-	    clear: both;
-	    top: 91.11px;
-	    color: #E51937;
-       }
-
-     .title-test__art {
-        width: 22px;
-        height: 22px;
-       }
-
-     .title-test__line {
-	    margin-left: 9px;
-	    margin-top: 3px;
-        font-size: 13px;
-        text-transform: uppercase;
-       }
-
-      .title-button__order {
-        width: 160px;
-        height: 40px;
-	    margin-left: 20px;
-        font-weight: 500;
-        font-size: 13px;
-       }
-
-       .salon {
-	    position: relative;
-	    width: 100%;
-	    height: 550px;
-       }
-
-       .salon-headline__title {
-	    display: none;
-       }
-
-       .salon__art {
-     	position: absolute;
-     	top: 0;
-     	z-index: 1;
-     	width: 375px;
-     	height: 337px;
-     	overflow: hidden;
-       }
-
-       .salon-art__desk {
-       	background: url('image/2013-tesla-model-s-cockpit(mobile).png') no-repeat center center;
-        background-size: cover;
-        width: 470px;
-     	height: 337px;
-       }
-
-       .salon__sidebar {
-	    position: absolute;
-        width: 375px;
-        height: 304px;
-        top: 337px;
-        left: 0;
-        background-color: #E51937;
-       }
-
-       .salon__text {
-	    position: absolute;
-	    width: 325px;
-	    top: 0;
-	    left: 29px;
-       }  
-
-       .salon-text__caption{
-    	font-family: Montserrat;
-        font-weight: 500;
-    	font-style: normal;
-        font-size: 30px;
-        color: white;
-        margin: 18px 0 18px 0;
-       }
-
-      .salon__badges {
-	    display: none;
-	    position: absolute;
-	    top: 0;
-	    left: 52px;
-       }
-
-
-       .analysis {
-	    position: relative;
-	    height: 700px;
-	    width: 375px;
-	    overflow: hidden;
-      }
-
-      .analysis__sidebar {
-	    position: absolute;
-        width: 400px;
-        height: 304px;
-        background-color: #E51937;
-        top: 400px;
-      }
-
-      .analysis__caption {
-        left: -8px;
-        top: -16px;
-	    font-size: 100px;
-      }
-
-       .analysis__car {
-       	position: absolute;
-        width: 361.83px;
-        height: 186.25px;	
-        top: -55px;
-        
-      }
-      .analysis__art {
-	     position: absolute;
-     	 left: 0px;
-     	 z-index: 1;
-     	 width: 750px;
-         height: 200px;
-        }
-
-
-      .analysis__text {
-	    position: absolute;
-	    width: 360px;
-	    height: 304px;
-	    top: 0px;
-	    left: 29px;
-      }
-
-      .analysis-text__caption {
-	    font-family: Montserrat;
-        font-weight: 500;
-	    font-style: normal;
-        font-size: 30px;
-        line-height: 37px;
-        color: #FFFFFF;
-      }
-
-      .analysis-text__section {
-      	display:block;
-      	width: 310px;
-	    font-family: Montserrat;
+@media (min-width: 412px) and (max-width: 475px) {
+	.head{
+        margin-top: 24px;
+        padding: 0 21px 0 0;
+  }
+    .title {
+    	margin: 30px 0 0 0;
+  }
+   .title__caption {
         font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 18px;
-        color: #FFFFFF;
-      }
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 61px;
+	    text-align: center;
+  }
+   .title__under{
+       font-family: Montserrat;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 10px;
+       line-height: 12px;
+	   text-align: center;
+  }
+   .title__column{
+	   display: flex;
+	   flex-flow: column nowrap;
+	   margin: 0 0 49px 0;
+  }
+   .title__car {
+       padding: 0;
+  }
+	.label__body {
+      padding: 0 0 0 10px;
+      margin: auto 0; 
+  }
+   .label__item:nth-child(1) {
+       font-style: normal;
+       font-weight: 500;
+       font-size: 27px;
+       line-height: 33px;
+  }
+   .label__item:nth-child(2) {
+       font-style: normal;
+       font-weight: normal;
+       font-size: 10px;
+       line-height: 12px;
+  }
+   .label-item__low {
+	   font-style: normal;
+       font-weight: 600;
+       font-size: 15px;
+       line-height: 18px;
+  }
+  .label__img-speed {
+       align-self: center;
+       background: url('images/Group 5.png') center bottom no-repeat;
+       width: 39px;
+       height: 29px;
+  }
+   .label__img-road {
+       align-self: flex-end;
+       background: url('images/Group 6.png') center bottom no-repeat;
+       width: 26px;
+       height: 42px;
+  }
 
-      .analysis__evaluation {
-         display: none;
-        }
+   .test__img {
+       align-self: center;
+       width: 22px;
+       height: 22px;
+       background: url('images/group 7.png') center center no-repeat;
+  }
+   .test__item {
+       color: #E51937;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 13px;
+       line-height: 16px;
+  }
+   .title__button {
+       margin: 0 0 0 25px;
+  }
+   .button__item {
+       width: 160px;
+       height: 40px;
+       background: #E51937;
+       color: #FFFFFF;
+  }
+   .title__test {
+	   margin: auto 0 auto 0;
+	   align-self: flex-end;
+  }
+  .title-badges__column {
+      margin: 30px 0 auto 0;
+  }
+   .title-badges__column:nth-child(3) {
+       flex: 0 1 auto;
+       margin: 47px 18px 0 18px;
+  }
+   .title-badges__column:nth-of-type(0n+2) {
+       margin: 30px 0 auto 41px;
+  }
+    .salon__column {
+       display: flex;
+       flex-flow: row wrap;
+       flex: 1 1 400px;
+}
+   .right-sidebar__badges{
+       display: none;
+}
+   .right-sidebar__info {
+       display: none;
+}
 
-      .analysis__protect {
-	     display: none;
-        }
+   .left-sidebar__columns {
+      display: none;
+}
+   .left-sidebar__info {
+      display: none;
+}
+   .left-sidebar__textblock {
+      margin: 18px 0 50px 21px;
+      flex: 1 1 200px;
+      padding: 0 17px 0 0;
+}
+   .analysis__column {
+   	  flex: 1 1 100px;
+      order: 2;
+}
+   .analysis__car {
+       width: 100%;
+       height: 400px;
+  }
+}
 
-      .analysis__button {
-	     display: none;
-        }
+@media (max-width: 411px) {
+	.head{
+        margin-top: 24px;
+        padding: 0 21px 0 0;
+  }
+    .title {
+    	margin: 30px 0 0 0;
+  }
+   .title__caption {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 61px;
+	    text-align: center;
+  }
+   .title__under{
+       font-family: Montserrat;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 10px;
+       line-height: 12px;
+	   text-align: center;
+  }
+   .title__column{
+	   display: flex;
+	   flex-flow: column nowrap;
+	   margin: 0 0 49px 0;
+  }
+   .title__car {
+       padding: 0;
+  }
+  .label__body {
+      padding: 0 0 0 10px;
+      margin: auto 0; 
+  }
+   .label__item:nth-child(1) {
+       font-style: normal;
+       font-weight: 500;
+       font-size: 27px;
+       line-height: 33px;
+  }
+   .label__item:nth-child(2) {
+       font-style: normal;
+       font-weight: normal;
+       font-size: 10px;
+       line-height: 12px;
+  }
+   .label-item__low {
+	   font-style: normal;
+       font-weight: 600;
+       font-size: 15px;
+       line-height: 18px;
+  }
+  .label__img-speed {
+       align-self: center;
+       background: url('images/Group 5.png') center bottom no-repeat;
+       width: 39px;
+       height: 29px;
+  }
+   .label__img-road {
+       align-self: flex-end;
+       background: url('images/Group 6.png') center bottom no-repeat;
+       width: 26px;
+       height: 42px;
+  }
+
+   .test__img {
+       align-self: center;
+       width: 22px;
+       height: 22px;
+       background: url('images/group 7.png') center center no-repeat;
+  }
+   .test__item {
+       color: #E51937;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 13px;
+       line-height: 16px;
+  }
+   .title__button {
+       margin: 0 0 0 25px;
+  }
+   .button__item {
+       width: 160px;
+       height: 40px;
+       background: #E51937;
+       color: #FFFFFF;
+  }
+   .title__test {
+	   margin: auto 0 auto 0;
+	   align-self: flex-end;
+  }
+  .title-badges__column {
+      margin: 30px 0 auto 0;
+  }
+   .title-badges__column:nth-child(3) {
+       flex: 0 1 auto;
+       margin: 47px 18px 0 18px;
+  }
+   .title-badges__column:nth-of-type(0n+2) {
+       margin: 30px 0 auto 41px;
+  }
+   .title__badges::after {
+     display: block;
+     width: 28px;
+     height: 16px;
+     margin: 34px auto 45px auto;
+     content: " ";
+     background: url(images/Vector1.png) center center no-repeat ;
+}
+
+   .text__title {
+       display: none;
+  }
+
+.salon__text {
+	max-width: 1548px;
+	background: url("images/group 8t.png") left bottom no-repeat;
+	background-size: 100% auto;
+
+}
+   .salon__text {
+
+  }
+   .salon__column {
+       display: flex;
+       flex-flow: row wrap;
+       flex: 1 1 300px;
+  } 
+   .right-sidebar__badges{
+       display: none;
+  } 
+   .right-sidebar__column:nth-child(3) {
+  	   display: none;
+	
+  }
+
+   .right-sidebar__title {
+	   margin: 18px 0 0 29px;
+       font-weight: 500;
+       font-size: 30px;
+       line-height: 37px;
+       color: #FFFFFF;
+  }
+
+   .right-sidebar__text {
+	   margin: 9px 54px 34px 30px;
+       font-size: 15px;
+       line-height: 18px;
+       color: #FFFFFF;
+  }
+     .left-sidebar__columns {
+      display: none;
+}
+   .left-sidebar__info {
+      display: none;
+}
+   .analysis__column {
+   	  flex: 1 1 300px;
+      order: 2;
+}
+   .analysis__car {
+       width: 100%;
+       height: 400px;
+  }
+}
 
 
 
+
+
+@media (max-width: 375px) {
+	.left-sidebar__row {
+       display: flex;
+       flex-flow: row wrap;
+}
+	.analysis__car {
+       width: 100%;
+       height: 290px;
+  }
+    .analysis__content {
+       background: url("images/Model S.png") left 7% no-repeat;
+       background-size: 105% auto;
+}
+    .analysis__img {
+	  position: absolute;
+	  top: 55px;
+	  left: 0;
+	  z-index: 3;
+	  width: 100%;
+	  padding: 0 15px 0 0;
+}
+
+    .left-sidebar__textblock {
+      margin: 18px 0 50px 21px;
+      flex: 1 1 300px;
+      padding: 0 17px 0 0;
+}
+   .left-sidebar__title {
+      font-weight: 500;
+}
+   .left-sidebar__columns {
+      display: none;
+}
+   .left-sidebar__info {
+      display: none;
+}
+   .analysis__column {
+   	flex: 1 1 100px;
+    order: 2;
+}
 
 }
