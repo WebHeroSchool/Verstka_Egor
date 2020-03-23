@@ -1,12 +1,26 @@
 @media (max-width: 766px){
-   .analysis__content {
+      .analysis__content {
         background: url("images/Model S.png") center 6% no-repeat;
         background-size: 75% auto;
 }
 
+@media (max-width: 759px) {
+	  .right-sidebar__badges{
+       display: none;
+}
+   .salon__right-sidebar {
+       flex: 1 1 250px;
+}
+}
+
+@media (max-width: 671px) {
+	.left-sidebar__columns {
+       display: none;
+}
+}
 
 }
-@media(max-width: 628px) {
+@media(max-width: 671px) {
 	.left-sidebar__row {
         display: flex;
         flex-flow: column wrap;
@@ -17,7 +31,7 @@
 
 }
 
-@media (min-width: 412px) and (max-width: 475px) {
+@media (min-width: 376px) and (max-width: 475px) {
 	.head{
         margin-top: 24px;
         padding: 0 21px 0 0;
@@ -25,9 +39,9 @@
     .title {
     	margin: 30px 0 0 0;
   }
-   .title__caption {
+    .title__caption {
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 50px;
         line-height: 61px;
 	    text-align: center;
@@ -35,7 +49,7 @@
    .title__under{
        font-family: Montserrat;
        font-style: normal;
-       font-weight: 500;
+       font-weight: 400;
        font-size: 10px;
        line-height: 12px;
 	   text-align: center;
@@ -109,7 +123,7 @@
 	   margin: auto 0 auto 0;
 	   align-self: flex-end;
   }
-  .title-badges__column {
+   .title-badges__column {
       margin: 30px 0 auto 0;
   }
    .title-badges__column:nth-child(3) {
@@ -124,6 +138,15 @@
        flex-flow: row wrap;
        flex: 1 1 400px;
 }
+   .right-sidebar__column:nth-child(3) {
+     display: none;
+}
+    .right-sidebar__title {
+	   margin: 18px 22px 0 26px;
+}
+   .right-sidebar__text {
+     margin: 11px 22px 0 26px;
+   }
    .right-sidebar__badges{
        display: none;
 }
@@ -138,17 +161,29 @@
       display: none;
 }
    .left-sidebar__textblock {
-      margin: 18px 0 50px 21px;
-      flex: 1 1 200px;
-      padding: 0 17px 0 0;
+      margin:0 0 0 0;
+      flex: 1 1 300px;
+      padding: 0 0 0 0;
+}
+   .left-sidebar__title {
+	  margin: 18px 22px 12px 29px;
+      font-weight: 500;
+}
+   .left-sidebar__text {
+	  margin: 0 30px 20px 29px;
+      font-weight: 400;
+}
+   .analysis__content {
+       background: url("images/Model S.png") center 45px no-repeat;
+       background-size: 105% auto;
 }
    .analysis__column {
    	  flex: 1 1 100px;
       order: 2;
 }
    .analysis__car {
-       width: 100%;
-       height: 400px;
+      width: 100%;
+      height: 400px;
   }
 }
 
@@ -160,17 +195,17 @@
     .title {
     	margin: 30px 0 0 0;
   }
-   .title__caption {
+    .title__caption {
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 50px;
         line-height: 61px;
 	    text-align: center;
   }
-   .title__under{
+    .title__under{
        font-family: Montserrat;
        font-style: normal;
-       font-weight: 500;
+       font-weight: 400;
        font-size: 10px;
        line-height: 12px;
 	   text-align: center;
@@ -178,12 +213,12 @@
    .title__column{
 	   display: flex;
 	   flex-flow: column nowrap;
-	   margin: 0 0 49px 0;
+	   margin: 0 0 35px 0;
   }
    .title__car {
        padding: 0;
   }
-  .label__body {
+   .label__body {
       padding: 0 0 0 10px;
       margin: auto 0; 
   }
@@ -255,22 +290,22 @@
        margin: 30px 0 auto 41px;
   }
    .title__badges::after {
-     display: block;
-     width: 28px;
-     height: 16px;
-     margin: 34px auto 45px auto;
-     content: " ";
-     background: url(images/Vector1.png) center center no-repeat ;
+       display: block;
+       width: 28px;
+       height: 16px;
+       margin: 34px auto 45px auto;
+       content: " ";
+       background: url(images/Vector1.png) center center no-repeat ;
 }
 
    .text__title {
        display: none;
   }
 
-.salon__text {
-	max-width: 1548px;
-	background: url("images/group 8t.png") left bottom no-repeat;
-	background-size: 100% auto;
+   .salon__text {
+	  max-width: 1548px;
+	  background: url("images/group 8t.png") left bottom no-repeat;
+	  background-size: 100% auto;
 
 }
    .salon__text {
@@ -304,16 +339,16 @@
        color: #FFFFFF;
   }
      .left-sidebar__columns {
-      display: none;
+       display: none;
 }
-   .left-sidebar__info {
-      display: none;
+     .left-sidebar__info {
+       display: none;
 }
-   .analysis__column {
-   	  flex: 1 1 300px;
-      order: 2;
+     .analysis__column {
+   	   flex: 1 1 300px;
+       order: 2;
 }
-   .analysis__car {
+     .analysis__car {
        width: 100%;
        height: 400px;
   }
@@ -333,7 +368,7 @@
        height: 290px;
   }
     .analysis__content {
-       background: url("images/Model S.png") left 7% no-repeat;
+       background: url("images/Model S.png") left 45px no-repeat;
        background-size: 105% auto;
 }
     .analysis__img {
@@ -342,16 +377,21 @@
 	  left: 0;
 	  z-index: 3;
 	  width: 100%;
-	  padding: 0 15px 0 0;
 }
 
     .left-sidebar__textblock {
-      margin: 18px 0 50px 21px;
+      margin: 0 0 0 0;
       flex: 1 1 300px;
-      padding: 0 17px 0 0;
+      padding: 0 0 0 0;
 }
+
    .left-sidebar__title {
+	  margin: 18px 22px 12px 29px;
       font-weight: 500;
+}
+   .left-sidebar__text {
+	  margin: 0 30px 50px 29px;
+      font-weight: 400;
 }
    .left-sidebar__columns {
       display: none;
@@ -364,4 +404,82 @@
     order: 2;
 }
 
+}
+
+@media (max-width: 374px) {
+	.label__body {
+       padding: 0 0 0 10px;
+       margin: 0 0 0 0; 
+  }
+	.label__img-road {
+	   align-self: flex-end;
+       background: url('images/Group 6.png') center bottom no-repeat;
+       width: 26px;
+       height: 42px;
+}
+	.title__column{
+	   display: flex;
+	   flex-flow: column nowrap;
+	   margin: 0 0 25px 0;
+}
+	.test__item {
+       color: #E51937;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 9px;
+       line-height: 16px;
+  }
+   .title__button {
+       margin: 0 0 0 25px;
+  }
+
+   .button__item{
+       width: 120px;
+       height: 40px;
+       font-size: 10px;
+}
+   .label__item:nth-child(1) {
+	   font-weight: 500;
+       font-size: 20px;
+       line-height: 25px;
+}
+   .label__item:nth-child(2) {
+	   font-weight: normal;
+       font-size: 10px;
+       line-height: 10px;
+}
+   .label-item__low {
+	   font-weight: 500;
+       font-size: 10px;
+       line-height: 20px;
+}
+  .title-badges__column {
+      margin: 30px 0 0 0;
+  }
+
+  .right-sidebar__title {
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 37px;
+      color: #FFFFFF;
+}
+   .right-sidebar__text {
+	   margin: 9px 25px 34px 30px;
+       font-size: 13px;
+       line-height: 18px;
+       color: #FFFFFF;
+  }
+   .left-sidebar__title {
+	   margin: 18px 22px 12px 29px;
+	   font-size: 25px;
+       font-weight: 500;
+}
+   .left-sidebar__text {
+	  margin: 0 22px 50px 29px;
+      font-weight: 400;
+      font-size: 13px;
+}
+	.analysis__car {
+       height: 260px;
+  }
 }

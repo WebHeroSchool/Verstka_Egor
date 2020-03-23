@@ -28,13 +28,13 @@
 }
   .label__item:nth-child(1) {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 50px;
     line-height: 61px;
 }
   .label__item:nth-child(2) {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 12px;
     line-height: 15px;
 }
@@ -131,7 +131,7 @@
      color: #FFFFFF;
 }
    .right-sidebar__text {
-     margin: 11px 45px 64px 52px;
+     margin: 11px 45px 0 52px;
 }
    .right-sidebar__badges{
      flex: 0 1 380px;
@@ -168,7 +168,7 @@
    .analysis__img {
     position: absolute;
     top: 60px;
-    left: -25px;
+    left: 0;
     z-index: 3;
     width: 100%;
 }
@@ -187,15 +187,15 @@
     flex: 1 0 400px;
 }
    .left-sidebar__textblock {
-    margin: 51px 0 0 34px;
+    margin: 0 0 0 0;
     flex: 1 1 250px;
-    padding: 0 50px 0 0;
+    padding: 0 0 0 0;
 }
    .left-sidebar__title {
-    margin: 0 0 12px 0;
+    margin: 51px 20px 12px 56px;
 }
    .left-sidebar__text {
-    margin: 0 0 0 0;
+    margin: 0 68px 49px 56px;
 }
    .left-sidebar__columns {
     margin: 51px 55px 0 0;
@@ -220,5 +220,10 @@
    .title__column {
     margin: 0 0 76px 0;
   }
+  .left-sidebar__textblock {
+    margin: 0 0 0 0;
+    flex: 1 1 300px;
+    padding: 0 0 0 0;
+}
 
 }
