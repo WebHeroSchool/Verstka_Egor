@@ -116,7 +116,7 @@
    .button__item {
        width: 160px;
        height: 40px;
-       background: #E51937;
+       background: url("images/Rectangle2.svg");
        color: #FFFFFF;
   }
    .title__test {
@@ -272,7 +272,7 @@
    .button__item {
        width: 160px;
        height: 40px;
-       background: #E51937;
+       background: url("images/Rectangle0.svg");
        color: #FFFFFF;
   }
    .title__test {
@@ -437,6 +437,7 @@
        width: 120px;
        height: 40px;
        font-size: 10px;
+       background: url("images/Rectangle0.svg");
 }
    .label__item:nth-child(1) {
 	   font-weight: 500;

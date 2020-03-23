@@ -253,13 +253,13 @@ body {
     text-transform: uppercase;
 }
 .title__button {
-	   margin: 0 0 0 25px;
+	   margin: 0 0 0 40px;
 }
 .button__item{
 	cursor: pointer;
     width: 160px;
     height: 40px;
-    background: url("images/Rectangle.png");
+    background: url("images/Rectangle.svg");
     color: #E51937;
     font-style: normal;
     font-weight: bold;
@@ -403,7 +403,7 @@ body {
     width: 160px;
     height: 40px;
     border: 2px solid #FFFFFF;
-    background: #E51937;
+    background: url("images/Rectangle1.svg");
     color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
@@ -583,7 +583,7 @@ body {
     width: 160px;
     height: 40px;
     border: 2px solid #FFFFFF;
-    background: #E51937;
+    background: url("images/Rectangle.svg");
     color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
