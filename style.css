@@ -133,8 +133,8 @@ body {
 }
 .title__header {
 	max-width: 1514px;
-	background: url('images/Tesla-Wordmark-Red2.png') 20% 20% no-repeat;
-	background-size: contain;
+	background: url('images/Tesla-Wordmark-Red2.png') 15% 17% no-repeat;
+	background-size: 105% auto;
 }
 .title__column{
 	display: flex;

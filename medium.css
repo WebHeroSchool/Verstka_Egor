@@ -13,6 +13,11 @@
 }
 }
 @media (max-width: 902px) {
+  .title__header {
+    max-width: 1514px;
+    background: url('images/Tesla-Wordmark-Red2.png') 15% 17% no-repeat;
+    background-size: 110% auto;
+}
 
   .title-badges__row {
     flex-flow: row wrap;
@@ -38,7 +43,7 @@
 }
   .label__item:nth-child(2) {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 12px;
     line-height: 15px;
 }
@@ -82,7 +87,7 @@
 
 
    .title__car {
-     padding: 0 47px;
+     padding: 0 37px;
 }
 
    .title__badges::after {

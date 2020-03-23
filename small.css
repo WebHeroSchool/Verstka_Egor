@@ -213,7 +213,7 @@
    .title__column{
 	   display: flex;
 	   flex-flow: column nowrap;
-	   margin: 0 0 35px 0;
+	   margin: 0 0 25px 0;
   }
    .title__car {
        padding: 0;
@@ -359,6 +359,9 @@
 
 
 @media (max-width: 375px) {
+	.title__car {
+       padding: 0 20px 0 20px;
+  }
 	.left-sidebar__row {
        display: flex;
        flex-flow: row wrap;
