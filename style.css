@@ -1,0 +1,605 @@
+* {padding:0; margin:0;border:0}
+*,*:before, *:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus, :active{outline: none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width: 100%;font-size:100%; line-height:1;font-size:14px; -ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style:none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*___________________________*/
+
+body {
+	font-family: Montserrat;
+    font-style: normal;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.conteiner {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+
+/*ШАПКА*/
+
+
+.head{
+   margin-top: 24px;
+   padding: 0 60px 0 42px;
+}
+.head__forehead {
+	display: flex;
+	height: 51px;
+	justify-content: center;
+	align-items: center;
+}
+.head__logo {
+	flex: 1;
+}
+.head__icon {
+
+}
+
+/*ГЛАВНОЕ МЕНЮ*/
+
+
+.head__menu {
+	flex: 3;
+	text-align: center;
+	margin: 0 -50px 0 50px;
+}
+.head-menu__link {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding: 16px 0 10px 20px;
+}
+.head-menu__link_active {
+	color: #E51937;
+	background: url(images/Vector.png) no-repeat 20px bottom;
+}
+.head-menu__link:nth-child(1) {
+	margin: 0 50px 0 -50px;
+}
+.head-menu__link:nth-child(4) {
+	margin-left: 15px;
+}
+.head-menu__link:nth-child(5) {
+	margin-left: 30px;
+}
+
+/*МЕНЮ МАГАЗИН*/
+
+
+.head__reg {
+	flex: 1;
+	text-align: right;
+	margin: 0 30px 0 0 ;
+}
+.head-reg__link {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding: 16px 0 0 16px;
+}
+.head__dropdown-menu {
+	position: relative;
+	width: 24px;
+    height: 15px;
+}
+.head-dropdown-menu__line {
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	background: #E51937;
+	border-radius: 0 0 2px 2px;
+}
+.head-dropdown-menu__line:nth-child(1) {
+	top: 0;
+}
+.head-dropdown-menu__line:nth-child(2) {
+	top: 7px;
+}
+.head-dropdown-menu__line:nth-child(3) {
+	top: 14px;
+}
+
+
+/*ТИТУЛЬНАЯ ЧАСТЬ*/
+
+
+.title {
+	margin: 74px 0 0px 0;
+}
+.title__row {
+}
+.title__header {
+	max-width: 1514px;
+	background: url('images/Tesla-Wordmark-Red2.png') 15% 17% no-repeat;
+	background-size: 105% auto;
+}
+.title__column{
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 0 0 75px 0;
+}
+.title__caption {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 110px;
+	text-align: center;
+}
+.title__under{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+	text-align: center;
+}
+.title__picture {
+    text-align: center;
+    flex: 0 1 968px;
+}
+.title__car{
+    max-width: 100%;
+}
+
+
+/*ЗНАЧКИ*/
+
+
+.title__badges{
+}
+.title-badges__row {
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+}
+.title-badges__column {
+    flex: 0 1 auto;
+    margin: auto 0 auto 81px;
+}
+.title__label {
+}
+.label__row {
+	display: flex;
+}
+.label__img-speed {
+	align-self: center;
+	background: url('images/Group2.png') center bottom no-repeat;
+	width: 46px;
+    height: 43px;
+}
+.label__img-road {
+	align-self: flex-end;
+	background: url('images/Road icon.png') center center no-repeat;
+	width: 34px;
+    height: 58px;
+}
+.label__art {
+	padding: 10px 0 0 0;
+}
+.label__body {
+	padding: 0 0 0 10px;
+	margin: auto 0; 
+}
+.label__item{
+}
+.label__item:nth-child(1) {
+	font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+}
+.label__item:nth-child(2) {
+	font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.label-item__low {
+	font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.title__badges::after {
+	display: block;
+	width: 38px;
+	height: 24px;
+    margin: 25px auto 37px auto;
+	content: " ";
+	background: url(images/Vector2.png) center center no-repeat ;
+}
+
+.title__test {
+	 margin: auto 0 auto 45px;
+	 align-self: flex-end;
+}
+.test__row {
+	display: flex;
+}
+.test__body {
+	padding: 0 0 0 10px;
+	margin: auto 0 ; 
+ }
+ .test__img {
+ 	align-self: center;
+ 	width: 22px;
+    height: 22px;
+    background: url('images/steering-wheel.png') center center no-repeat;
+ }
+.test__item{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title__button {
+	   margin: 0 0 0 40px;
+}
+.button__item{
+	cursor: pointer;
+    width: 160px;
+    height: 40px;
+    background: url("images/Rectangle.svg");
+    color: #E51937;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/*САЛОН*/
+
+.salon {
+	
+}
+.salon__content {
+	max-width: 1548px;
+	background: url("images/2013-tesla-model-s-cockpit(mobile.png") left bottom no-repeat;
+	background-size: contain;
+}
+.salon__row {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+}
+.salon__column {
+	flex: 0 1 440px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.salon__text {
+    padding: 50px 0 0 80px;
+}
+.text__title {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 85px;
+    color: #E51937;
+    text-align: center;
+}
+.salon__right-sidebar {
+	background: #E51937;
+}
+.right-sidebar__column {
+	
+}
+.right-sidebar__title {
+	margin: 51px 0 0 52px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.right-sidebar__text {
+	margin: 11px 72px 64px 52px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+
+/*ЗНАЧКИ*/
+
+
+.right-sidebar__badges{
+}
+.right-sidebar-badges__column{
+    margin: auto 0 35px 52px;
+}
+.right-sidebar__icon {
+
+}
+.icon__row {
+	display: flex;
+}
+.icon__img {
+	align-self: center;
+}
+.icon__art {
+
+}
+.icon__body {
+	padding: 0 0 0 19px;
+}
+.icon__item {
+	font-weight: 500;
+    font-size: 35px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.icon__item:nth-child(2){
+	font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.icon__item_big {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 50px 0 0;
+    padding: 0 0 5px 0;
+}
+.icon-item__low {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.right-sidebar__info {
+	 margin: 171px 0 63px 0;
+}
+.info__row {
+	display: flex;
+    justify-content: center;
+}
+ .info__img {
+ 	align-self: center;
+ }
+.info__art {
+
+}
+.info__body {
+	padding: 0 0 0 10px;
+	margin: auto 0; 
+ }
+
+.info__item {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.salon__button {
+    margin: 0 0 0 25px;
+}
+.button__order{
+	cursor: pointer;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    background: url("images/Rectangle1.svg");
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+}
+.right-sidebar-badges__column:nth-child(4){
+    margin: auto;
+}
+
+
+/*АНАЛИЗ СИСТЕМЫ*/
+
+
+.analysis {
+
+}
+.analysis__content {
+	background: url("images/Model S.png") right 21% no-repeat;
+}
+.analysis__row {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+.analysis__column {
+	flex: 1 0 440px;
+	z-index: 2;
+}
+.analysis__left-sidebar {
+	background: #E51937;
+}
+.left-sidebar__row {
+   display: flex;
+   flex-flow: row wrap;
+}
+.left-sidebar__title {
+	margin: 51px 0 12px 56px;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+.left-sidebar__text {
+	margin: 0 68px 49px 56px;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.left-sidebar__caption {
+	margin: 0 0 29px 0;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+.left-sidebar__columns {
+	margin: 0 0 102px 56px;
+}
+.columns__row {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+}
+.columns__column {
+}
+.columns__column:nth-child(2) {
+	margin: 0 0 0 31px;
+}
+.column__text {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text__item {
+	padding: 0 0 16px 0;
+}
+.text__low {
+	padding: 0 0 0 3px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.column__stars {
+   	padding: 0 0 14px 0;
+}
+.stars__item {
+
+}
+
+
+/*ЗНАЧЕК*/
+
+
+.left-sidebar__badges {
+	margin: 0 0 0 66px;
+}
+.left-sidebar__shield {
+
+}
+.shield__row {
+	display: flex;
+}
+.shield__img {
+	align-self: center;
+}
+.shield__art {
+
+}
+.shield__body {
+	padding: 0 0 0 19px;
+}
+.shield__item {
+
+}
+.shield__item:nth-child(2){
+	font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.shield__item_big {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding: 0 0 5px 0;
+}
+
+.left-sidebar__info {
+	 margin: 60px auto 60px auto;
+}
+.info__row {
+	display: flex;
+    justify-content: center;
+}
+.info__img {
+ 	align-self: center;
+ }
+.info__art {
+
+}
+.info__body {
+	padding: 0 0 0 10px;
+	margin: auto 0; 
+ }
+
+.info__item {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.analysis__button {
+    margin: 0 0 0 25px;
+}
+.button__order{
+	cursor: pointer;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    background: url("images/Rectangle.svg");
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+}
+.analysis__car{
+    width: 1050px;
+    height: 576px;
+}
+.car__image {
+	position: relative;
+}
+.analysis__img {
+	position: absolute;
+	top: 190px;
+	left: -90px;
+	z-index: 3;
+	width: 100%;
+}
